@@ -6,6 +6,7 @@ This is the documentation for the backend API of the application. This API provi
 
 - [Introduction](#introduction)
 - [Setup](#setup)
+- [Technologies Used](#Technologies-Used)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Middleware](#middleware)
@@ -26,7 +27,11 @@ cd your-repo
 
 2. Install dependencies:
 
-npm install
+- yarn install (node_modules)
+- yarn npm init -y (package.json)
+- yarn add typescript -D
+- npx tsc --init (tsconfig.json)
+- yarn add express (Framework)
 
 3. Configure environment variables:
 Create a `.env` file and add necessary environment variables.
@@ -39,8 +44,22 @@ Create a `.env` file and add necessary environment variables.
 
 4. Start the server:
 
-npm start
+- npm start
 
+## Technologies Used
+
+- Node.js
+- TypeScript
+- Express
+- Prisma
+- bcrypt
+- cors
+- date-fns
+- jsonwebtoken
+- multer
+- multer-s3
+- aws-sdk (Amazon-bucket-s3)
+- uuid
 
 ## Usage
 
