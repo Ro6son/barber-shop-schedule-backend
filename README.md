@@ -31,6 +31,12 @@ npm install
 3. Configure environment variables:
 Create a `.env` file and add necessary environment variables.
 
+DATABASE_URL="file:./dev.db"
+AWS_ACCESS_KEY_ID = " "
+AWS_SECRET_ACCESS_KEY = " "
+AWS_REGION = 'us-east-1'
+ACCESS_KEY_TOKEN = " "
+
 4. Start the server:
 
 npm start
