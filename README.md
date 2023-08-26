@@ -44,7 +44,7 @@ Create a `.env` file and add necessary environment variables.
 
 4. Start the server:
 
-- npm start
+- npm start 
 
 ## Technologies Used
 
